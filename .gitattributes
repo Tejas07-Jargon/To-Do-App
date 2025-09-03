@@ -2,20 +2,29 @@
 <html>
 <head>
   <title>To-Do App</title>
-  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="style.css">  <!-- connects CSS -->
+  <style>
+    body {
+      background-color: rgb(0, 132, 255);
+    }
+  </style>
+</head>
 <body>
   <h1>My To-Do App</h1>
- 
+  
+  <!-- Input and button -->
   <input type="text" id="taskInput" placeholder="Enter a task">
- 
+  
   <br>
   <button id="addTaskBtn">Add Task</button>
   <br>
- 
-  <button id="clearTasksBtn">Clear All Tasks</button>
- 
+
+  <!-- Button -->
+  <button id="clearTasksBtn">Clear All Tasks</button> 
+  
+  <!-- Task list -->
   <ul id="taskList"></ul>
- 
-  <script src="script.js"></script>
+  
+  <script src="script.js"></script> <!-- connects JS -->
 </body>
 </html>
